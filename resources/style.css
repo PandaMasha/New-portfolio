@@ -1,0 +1,91 @@
+* {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    align-items: center;   
+    background-color: #8AE835; 
+}
+
+.nav {
+        float: right;
+        padding-top: 0;
+        list-style: none; /*откл. маркеров*/
+      }
+
+.nav li {
+    float: left; /* Выстраивание элементов списка в один ряд. */
+    margin-right: 0px; /* создание отступов для того, чтобы не сливались пункты меню. */
+    font-size: 16px; /* Размер текста в ссылках. */  
+}
+
+.nav li a {
+    display: block; /* Изменение отображения на блочное для того чтобы иметь возможность задать внутренние отступы. */
+    padding: 10px 15px;  /* Внутри блочные отступы. */
+    color: #5E77E6; /* Цвет текста в блоках меню. */
+    position: relative; /* Это необходимо при использовании Internet Explorer 6 для того, чтобы ссылка по всей своей площади была «кликабельной». */
+  }
+
+.nav li a:hover {
+    color: #857575;  /* Цвет текста при наведении курсора. */
+ }
+
+/*
+.navbar ul {
+    margin: 0 10%;
+  }
+
+  .navbar li {
+    display: inline-block;
+    font-size: 1em;
+    padding: 10px 10px;
+  }
+*/
+
+h1 {
+    display: inline-block;
+    margin: 0px;
+    font-size: 6em;
+    font-style: italic;
+    color:	#5E77E6;
+    text-shadow: -1px 3px 0 #000,
+                  2px 3px 0 #000,
+                  3px -1px 0 #000,
+                 -1px -1px 0 #000;
+ }
+
+     .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        height: auto;
+        border-radius: 30%;
+    }
+
+    h2 {
+        font-size: 3em;
+        color: #E67E5E;
+    }
+    
+    h3 {
+        font-size: 2em;
+        color: #6B7291;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: auto;
+    }
+
+    ul a {
+        font-size: 1.5em;
+        color: #665D5B;
+    }
+
+    .cont {
+            width: 30%;
+            height: auto;
+    }
