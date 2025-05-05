@@ -23,6 +23,11 @@
     display: block; /* Изменение отображения на блочное для того чтобы иметь возможность задать внутренние отступы. */
     padding: 10px 15px;  /* Внутри блочные отступы. */
     color: #5766EB; /* Цвет текста в блоках меню. */
+    text-shadow: 1px 3px 0 #fff,
+                 2px 3px 0 #fff,
+                 2px 1px 0 #fff,
+                 1px 1px 0 #fff;
+    text-decoration: none;
     position: relative; /* Это необходимо при использовании Internet Explorer 6 для того, чтобы ссылка по всей своей площади была «кликабельной». */
   }
 
@@ -45,7 +50,7 @@
 h1 {
     display: inline-block;
     margin: 0px;
-    font-size: 6em;
+    font-size: 5.5em;
     font-style: italic;
     color: #5766EB;
     text-shadow: -1px 3px 0 #fff,
