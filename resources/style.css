@@ -3,7 +3,7 @@
     font-size: 24px;
     text-align: center;
     align-items: center;   
-    background-color: #8AE835; 
+    background-color: #A5E581; 
 }
 
 .nav {
@@ -15,18 +15,19 @@
 .nav li {
     float: left; /* Выстраивание элементов списка в один ряд. */
     margin-right: 0px; /* создание отступов для того, чтобы не сливались пункты меню. */
-    font-size: 16px; /* Размер текста в ссылках. */  
+    font-weight: bold;
+    font-size: 14px; /* Размер текста в ссылках. */  
 }
 
 .nav li a {
     display: block; /* Изменение отображения на блочное для того чтобы иметь возможность задать внутренние отступы. */
     padding: 10px 15px;  /* Внутри блочные отступы. */
-    color: #5E77E6; /* Цвет текста в блоках меню. */
+    color: #5766EB; /* Цвет текста в блоках меню. */
     position: relative; /* Это необходимо при использовании Internet Explorer 6 для того, чтобы ссылка по всей своей площади была «кликабельной». */
   }
 
 .nav li a:hover {
-    color: #857575;  /* Цвет текста при наведении курсора. */
+    color: #E6855E;  /* Цвет текста при наведении курсора. */
  }
 
 /*
@@ -46,30 +47,39 @@ h1 {
     margin: 0px;
     font-size: 6em;
     font-style: italic;
-    color:	#5E77E6;
-    text-shadow: -1px 3px 0 #000,
-                  2px 3px 0 #000,
-                  3px -1px 0 #000,
+    color: #5766EB;
+    text-shadow: -1px 3px 0 #fff,
+                  2px 3px 0 #fff,
+                  3px -1px 0 #fff,
                  -1px -1px 0 #000;
  }
 
-     .logo {
+     #logo {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 30%;
         height: auto;
-        border-radius: 30%;
+        border-radius: 40%;
+    }
+
+    #logo:hover {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        height: auto;
+        border-radius: 40%;
     }
 
     h2 {
         font-size: 3em;
-        color: #E67E5E;
+        color: #E6855E;;
     }
     
     h3 {
         font-size: 2em;
-        color: #6B7291;
+        color: #5766EB;;
     }
 
     img {
@@ -82,10 +92,10 @@ h1 {
 
     ul a {
         font-size: 1.5em;
-        color: #665D5B;
+        color: #5B5C66;
     }
 
     .cont {
-            width: 30%;
+            width: 25%;
             height: auto;
     }
