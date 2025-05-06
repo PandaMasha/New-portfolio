@@ -10,18 +10,22 @@
         float: right;
         padding-top: 0;
         list-style: none; /*откл. маркеров*/
+        margin: 0px;
       }
 
 .nav li {
     float: left; /* Выстраивание элементов списка в один ряд. */
     margin-right: 0px; /* создание отступов для того, чтобы не сливались пункты меню. */
+    margin-top: 0px;
+    padding: 0px;
     font-weight: bold;
     font-size: 14px; /* Размер текста в ссылках. */  
 }
 
 .nav li a {
     display: block; /* Изменение отображения на блочное для того чтобы иметь возможность задать внутренние отступы. */
-    padding: 10px 15px;  /* Внутри блочные отступы. */
+    margin-top: 0px;
+    padding: 1em;  /* Внутри блочные отступы. */
     color: #575EEB; /* Цвет текста в блоках меню. */
     text-shadow: 1px 3px 0 #fff,
                  2px 3px 0 #fff,
