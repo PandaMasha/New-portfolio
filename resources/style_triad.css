@@ -3,7 +3,7 @@
     font-size: 24px;
     text-align: center;
     align-items: center;   
-    background-color: #AAE691; 
+    background-color: #4B85DB; 
 }
 
 .nav {
@@ -26,7 +26,7 @@
     display: block; /* Изменение отображения на блочное для того чтобы иметь возможность задать внутренние отступы. */
     margin-top: 0px;
     padding: 1em;  /* Внутри блочные отступы. */
-    color: #575EEB; /* Цвет текста в блоках меню. */
+    color: #B9DB48; /* Цвет текста в блоках меню. */
     text-shadow: 1px 3px 0 #fff,
                  2px 3px 0 #fff,
                  2px 1px 0 #fff,
@@ -36,7 +36,7 @@
   }
 
 .nav li a:hover {
-    color: #E6885E;  /* Цвет текста при наведении курсора. */
+    color: #DB5B4B;  /* Цвет текста при наведении курсора. */
  }
 
 /*
@@ -56,7 +56,7 @@ h1 {
     margin: 0px;
     font-size: 5.5em;
     font-style: italic;
-    color: #575EEB;
+    color: #B9DB48;
     text-shadow: -1px 3px 0 #fff,
                   2px 3px 0 #fff,
                   3px -1px 0 #fff,
@@ -83,12 +83,16 @@ h1 {
 
     h2 {
         font-size: 3em;
-        color: #E6885E;;
+        color: #DB5B4B;
+        text-shadow: -1px 3px 0 #fff,
+        2px 3px 0 #fff,
+        3px -1px 0 #fff,
+       -1px -1px 0 #fff;
     }
     
     h3 {
         font-size: 2em;
-        color: #575EEB;
+        color: #4D535C;
     }
 
     img {
@@ -101,11 +105,11 @@ h1 {
 
     div #main ul a {
         font-size: 1.5em;
-        color: #5B5B66;
+        color: #4D535C;
     }
     div #glow ul a {
         font-size: 1.3em;
-        color: #5B5B66;
+        color: #4D535C;
     }
     .cont {
             width: 25%;
