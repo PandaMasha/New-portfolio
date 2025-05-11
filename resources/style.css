@@ -1,26 +1,24 @@
 * {
     font-family: Tahoma, Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
     align-items: center;   
     background-color: #AAE691; 
 }
 
 .nav {
-        float: right;
         padding-top: 0;
         list-style: none; /*откл. маркеров*/
         margin: 0px;
       }
 
 .nav li {
-    float: left; /* Выстраивание элементов списка в один ряд. */
-    margin-right: 0px; /* создание отступов для того, чтобы не сливались пункты меню. */
-    margin-top: 0px;
-    padding: 0px;
-    font-weight: bold;
-    font-size: 14px; /* Размер текста в ссылках. */  
-}
+         float: right; /* Выстраивание элементов списка в один ряд. */
+         margin-right: 0px; /* создание отступов для того, чтобы не сливались пункты меню. */
+         margin-top: 0px;
+         padding: 0px;
+         font-weight: bold; 
+        }
 
 .nav li a {
     display: block; /* Изменение отображения на блочное для того чтобы иметь возможность задать внутренние отступы. */
@@ -32,6 +30,7 @@
                  2px 1px 0 #fff,
                  1px 1px 0 #fff;
     text-decoration: none;
+    font-size: 1.5vw;
     position: relative; /* Это необходимо при использовании Internet Explorer 6 для того, чтобы ссылка по всей своей площади была «кликабельной». */
   }
 
@@ -54,7 +53,7 @@
 h1 {
     display: inline-block;
     margin: 0px;
-    font-size: 5.5em;
+    font-size: 9vw;
     font-style: italic;
     color: #575EEB;
     text-shadow: -1px 3px 0 #fff,
@@ -70,6 +69,7 @@ h1 {
         width: 30%;
         height: auto;
         border-radius: 40%;
+        max-width: 100%;
     }
 
     #logo:hover {
@@ -79,15 +79,16 @@ h1 {
         width: 30%;
         height: auto;
         border-radius: 40%;
+        max-width: 100%;
     }
 
     h2 {
-        font-size: 3em;
-        color: #E6885E;;
+        font-size: 4.5vw;
+        color: #E6885E;
     }
     
     h3 {
-        font-size: 2em;
+        font-size: 3.5vw;
         color: #575EEB;
     }
 
@@ -96,18 +97,46 @@ h1 {
         margin-left: auto;
         margin-right: auto;
         width: 50%;
+        max-width: 100%;
         height: auto;
     }
 
-    div #main ul a {
-        font-size: 1.5em;
-        color: #5B5B66;
+    div#main ul {
+        list-style-type: none;
     }
-    div #glow ul a {
-        font-size: 1.3em;
+
+    div#main ul a {
+        font-size: 2vw;
         color: #5B5B66;
+        font-weight: bold;
     }
+    
+    div#main ul a:hover {
+        font-size: 2vw;
+        color: #86605A;
+        font-weight: bold;
+    }
+
+
+    div#glow ul {
+        list-style-image: linear-gradient(to left bottom, #E6885E, #575EEB);
+        list-style-position: inside;
+    }
+   
+    div#glow ul a {
+        font-size: 2vw;
+        color: #5B5B66;
+        font-weight: bold;
+    }
+    div#glow ul a:hover {
+        font-size: 2vw;
+        color: #86605A;
+        font-weight: bold;
+    }
+
     .cont {
             width: 25%;
+            max-width: 100%;
             height: auto;
     }
+
