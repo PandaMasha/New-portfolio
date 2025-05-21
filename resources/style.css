@@ -1,9 +1,10 @@
 * {
     font-family: Tahoma, Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 100%;
     text-align: center;
     align-items: center;   
     background-color: #AAE691; 
+    line-height: normal;
 }
 
 .nav {
@@ -90,6 +91,38 @@ h1 {
     h3 {
         font-size: 3.5vw;
         color: #575EEB;
+    }
+
+    h3.cert {
+        color: #595B91;
+        font-style: italic;
+        font-size: 3.5vw;
+    }
+
+    div.certificates h4 {
+        line-height: 1.5;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        font-weight: bold;
+        font-size: 3vw;
+        color: #595B91;
+        font-style: italic;
+    }
+
+    div.certificates h5 {
+        line-height: normal;
+        display: inline-block;
+        list-style-type: disc;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        font-size: 2.5vw;
+        color: #566650;
     }
 
     img {
